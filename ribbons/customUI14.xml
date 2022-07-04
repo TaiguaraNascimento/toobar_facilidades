@@ -3,7 +3,9 @@
     <tabs>
       
       <tab id="tickmarks" label="Tickmarks" insertAfterMso="TabHome" keytip="T">
+
         <group id="ticks" label="Tickmarks" autoScale="false" centerVertically="true">
+		
           <button id="ticks_01" label="Tick 01" image="tickmark_tick_01" size="normal" showLabel="false" onAction="inserir_tickmark_01" supertip="Inserir tickmrk 01" />
           <button id="ticks_02" label="Tick 02" image="tickmark_tick_02" size="normal" showLabel="false" onAction="inserir_tickmark_02" supertip="Inserir tickmrk 02" />
           <button id="ticks_03" label="Tick 03" image="tickmark_tick_03" size="normal" showLabel="false" onAction="inserir_tickmark_03" supertip="Inserir tickmrk 03" />
@@ -14,7 +16,8 @@
           <button id="ticks_08" label="Tick 08" image="tickmark_tick_08" size="normal" showLabel="false" onAction="inserir_tickmark_08" supertip="Inserir tickmrk 08" />
           <button id="ticks_09" label="Tick 09" image="tickmark_tick_09" size="normal" showLabel="false" onAction="inserir_tickmark_09" supertip="Inserir tickmrk 09" />
           <button id="ticks_10" label="Tick 10" image="tickmark_tick_10" size="normal" showLabel="false" onAction="inserir_tickmark_10" supertip="Inserir tickmrk 10" />
-          <button id="ticks_11" label="Tick 11" image="tickmark_tick_11" size="normal" showLabel="false" onAction="inserir_tickmark_11" supertip="Inserir tickmrk 11" />
+          
+		  <button id="ticks_11" label="Tick 11" image="tickmark_tick_11" size="normal" showLabel="false" onAction="inserir_tickmark_11" supertip="Inserir tickmrk 11" />
           <button id="ticks_12" label="Tick 12" image="tickmark_tick_12" size="normal" showLabel="false" onAction="inserir_tickmark_12" supertip="Inserir tickmrk 12" />
           <button id="ticks_13" label="Tick 13" image="tickmark_tick_13" size="normal" showLabel="false" onAction="inserir_tickmark_13" supertip="Inserir tickmrk 13" />
           <button id="ticks_14" label="Tick 14" image="tickmark_tick_14" size="normal" showLabel="false" onAction="inserir_tickmark_14" supertip="Inserir tickmrk 14" />
@@ -24,7 +27,8 @@
           <button id="ticks_18" label="Tick 18" image="tickmark_tick_18" size="normal" showLabel="false" onAction="inserir_tickmark_18" supertip="Inserir tickmrk 18" />
           <button id="ticks_19" label="Tick 19" image="tickmark_tick_19" size="normal" showLabel="false" onAction="inserir_tickmark_19" supertip="Inserir tickmrk 19" />
           <button id="ticks_20" label="Tick 20" image="tickmark_tick_20" size="normal" showLabel="false" onAction="inserir_tickmark_20" supertip="Inserir tickmrk 20" />
-          <button id="ticks_21" label="Tick 21" image="tickmark_tick_21" size="normal" showLabel="false" onAction="inserir_tickmark_21" supertip="Inserir tickmrk 21" />
+          
+		  <button id="ticks_21" label="Tick 21" image="tickmark_tick_21" size="normal" showLabel="false" onAction="inserir_tickmark_21" supertip="Inserir tickmrk 21" />
           <button id="ticks_22" label="Tick 22" image="tickmark_tick_22" size="normal" showLabel="false" onAction="inserir_tickmark_22" supertip="Inserir tickmrk 22" />
           <button id="ticks_23" label="Tick 23" image="tickmark_tick_23" size="normal" showLabel="false" onAction="inserir_tickmark_23" supertip="Inserir tickmrk 23" />
           <button id="ticks_24" label="Tick 24" image="tickmark_tick_24" size="normal" showLabel="false" onAction="inserir_tickmark_24" supertip="Inserir tickmrk 24" />
@@ -34,85 +38,151 @@
           <button id="ticks_28" label="Tick 28" image="tickmark_tick_28" size="normal" showLabel="false" onAction="inserir_tickmark_28" supertip="Inserir tickmrk 28" />
           <button id="ticks_29" label="Tick 29" image="tickmark_tick_29" size="normal" showLabel="false" onAction="inserir_tickmark_29" supertip="Inserir tickmrk 29" />
           <button id="ticks_30" label="Tick 30" image="tickmark_tick_30" size="normal" showLabel="false" onAction="inserir_tickmark_30" supertip="Inserir tickmrk 30" />
-          <button id="ticks_31" label="Tick 31" image="tickmark_tick_31" size="normal" showLabel="false" onAction="inserir_tickmark_31" supertip="Inserir tickmrk 31" />
+         
+		  <button id="ticks_31" label="Tick 31" image="tickmark_tick_31" size="normal" showLabel="false" onAction="inserir_tickmark_31" supertip="Inserir tickmrk 31" />
           <button id="ticks_32" label="Tick 32" image="tickmark_tick_32" size="normal" showLabel="false" onAction="inserir_tickmark_32" supertip="Inserir tickmrk 32" />
           <button id="ticks_33" label="Tick 33" image="tickmark_tick_33" size="normal" showLabel="false" onAction="inserir_tickmark_33" supertip="Inserir tickmrk 33" />
+
         </group>
+		
         <group id="letras" label="Letras explicativas" autoScale="false" centerVertically="true">
           <button id="letras_a" label="Letra A" image="tickmark_a" size="normal" onAction="inserir_letra_a" showLabel="false" supertip="Inserir Letra Explicativa A"/>
-          <button id="letras_c" label="Letra C" image="tickmark_c" size="normal" onAction="inserir_letra_c" showLabel="false" supertip="Inserir Letra Explicativa C"/>
-          <button id="letras_d" label="Letra D" image="tickmark_d" size="normal" onAction="inserir_letra_d" showLabel="false" supertip="Inserir Letra Explicativa D"/>
-          <button id="letras_b" label="Letra B" image="tickmark_b" size="normal" onAction="inserir_letra_b" showLabel="false" supertip="Inserir Letra Explicativa B"/>
-          <button id="letras_e" label="Letra E" image="tickmark_e" size="normal" onAction="inserir_letra_e" showLabel="false" supertip="Inserir Letra Explicativa E"/>
           <button id="letras_f" label="Letra F" image="tickmark_f" size="normal" onAction="inserir_letra_f" showLabel="false" supertip="Inserir Letra Explicativa F"/>
-          <button id="letras_g" label="Letra G" image="tickmark_g" size="normal" onAction="inserir_letra_g" showLabel="false" supertip="Inserir Letra Explicativa G"/>
-          <button id="letras_h" label="Letra H" image="tickmark_h" size="normal" onAction="inserir_letra_h" showLabel="false" supertip="Inserir Letra Explicativa H"/>
-          <button id="letras_i" label="Letra I" image="tickmark_i" size="normal" onAction="inserir_letra_i" showLabel="false" supertip="Inserir Letra Explicativa I"/>
-          <button id="letras_j" label="Letra J" image="tickmark_j" size="normal" onAction="inserir_letra_j" showLabel="false" supertip="Inserir Letra Explicativa J"/>
           <button id="letras_k" label="Letra K" image="tickmark_k" size="normal" onAction="inserir_letra_k" showLabel="false" supertip="Inserir Letra Explicativa K"/>
+          <button id="letras_b" label="Letra B" image="tickmark_b" size="normal" onAction="inserir_letra_b" showLabel="false" supertip="Inserir Letra Explicativa B"/>
+          <button id="letras_g" label="Letra G" image="tickmark_g" size="normal" onAction="inserir_letra_g" showLabel="false" supertip="Inserir Letra Explicativa G"/>
           <button id="letras_l" label="Letra L" image="tickmark_l" size="normal" onAction="inserir_letra_l" showLabel="false" supertip="Inserir Letra Explicativa L"/>
+          <button id="letras_c" label="Letra C" image="tickmark_c" size="normal" onAction="inserir_letra_c" showLabel="false" supertip="Inserir Letra Explicativa C"/>
+          <button id="letras_h" label="Letra H" image="tickmark_h" size="normal" onAction="inserir_letra_h" showLabel="false" supertip="Inserir Letra Explicativa H"/>
           <button id="letras_m" label="Letra M" image="tickmark_m" size="normal" onAction="inserir_letra_m" showLabel="false" supertip="Inserir Letra Explicativa M"/>
+          <button id="letras_d" label="Letra D" image="tickmark_d" size="normal" onAction="inserir_letra_d" showLabel="false" supertip="Inserir Letra Explicativa D"/>
+          <button id="letras_i" label="Letra I" image="tickmark_i" size="normal" onAction="inserir_letra_i" showLabel="false" supertip="Inserir Letra Explicativa I"/>
           <button id="letras_n" label="Letra N" image="tickmark_n" size="normal" onAction="inserir_letra_n" showLabel="false" supertip="Inserir Letra Explicativa N"/>
+          <button id="letras_e" label="Letra E" image="tickmark_e" size="normal" onAction="inserir_letra_e" showLabel="false" supertip="Inserir Letra Explicativa E"/>
+          <button id="letras_j" label="Letra J" image="tickmark_j" size="normal" onAction="inserir_letra_j" showLabel="false" supertip="Inserir Letra Explicativa J"/>
           <button id="letras_o" label="Letra O" image="tickmark_o" size="normal" onAction="inserir_letra_o" showLabel="false" supertip="Inserir Letra Explicativa O"/>
         </group>
+
         <group id="numeros" label="Referências Numéricas" autoScale="false" centerVertically="true">
           <button id="numero_1" label="Numero 1" image="tickmark_1" size="normal" onAction="numero_1" showLabel="false" supertip="Inserir Referência Numérica 1"/>
-          <button id="numero_2" label="Numero 2" image="tickmark_2" size="normal" onAction="numero_2" showLabel="false" supertip="Inserir Referência Numérica 2"/>
-          <button id="numero_3" label="Numero 3" image="tickmark_3" size="normal" onAction="numero_3" showLabel="false" supertip="Inserir Referência Numérica 3"/>
-          <button id="numero_4" label="Numero 4" image="tickmark_4" size="normal" onAction="numero_4" showLabel="false" supertip="Inserir Referência Numérica 4"/>
           <button id="numero_5" label="Numero 5" image="tickmark_5" size="normal" onAction="numero_5" showLabel="false" supertip="Inserir Referência Numérica 5"/>
-          <button id="numero_6" label="Numero 6" image="tickmark_6" size="normal" onAction="numero_6" showLabel="false" supertip="Inserir Referência Numérica 6"/>
-          <button id="numero_7" label="Numero 7" image="tickmark_7" size="normal" onAction="numero_7" showLabel="false" supertip="Inserir Referência Numérica 7"/>
-          <button id="numero_8" label="Numero 8" image="tickmark_8" size="normal" onAction="numero_8" showLabel="false" supertip="Inserir Referência Numérica 8"/>
           <button id="numero_9" label="Numero 9" image="tickmark_9" size="normal" onAction="numero_9" showLabel="false" supertip="Inserir Referência Numérica 9"/>
+          <button id="numero_2" label="Numero 2" image="tickmark_2" size="normal" onAction="numero_2" showLabel="false" supertip="Inserir Referência Numérica 2"/>
+          <button id="numero_6" label="Numero 6" image="tickmark_6" size="normal" onAction="numero_6" showLabel="false" supertip="Inserir Referência Numérica 6"/>
           <button id="numero_10" label="Numero 10" image="tickmark_10" size="normal" onAction="numero_10" showLabel="false" supertip="Inserir Referência Numérica 10"/>
+          <button id="numero_3" label="Numero 3" image="tickmark_3" size="normal" onAction="numero_3" showLabel="false" supertip="Inserir Referência Numérica 3"/>
+          <button id="numero_7" label="Numero 7" image="tickmark_7" size="normal" onAction="numero_7" showLabel="false" supertip="Inserir Referência Numérica 7"/>
           <button id="numero_11" label="Numero 11" image="tickmark_11" size="normal" onAction="numero_11" showLabel="false" supertip="Inserir Referência Numérica 11"/>
+          <button id="numero_4" label="Numero 4" image="tickmark_4" size="normal" onAction="numero_4" showLabel="false" supertip="Inserir Referência Numérica 4"/>
+          <button id="numero_8" label="Numero 8" image="tickmark_8" size="normal" onAction="numero_8" showLabel="false" supertip="Inserir Referência Numérica 8"/>
           <button id="numero_12" label="Numero 12" image="tickmark_12" size="normal" onAction="numero_12" showLabel="false" supertip="Inserir Referência Numérica 12"/>
         </group>
+
+        <group id="outros_especiais" label="Outras marcas" autoScale="false" centerVertically="true">
+
+          <button id="minuta_para_discussao" label="Inserir marca de minuta para discussão" image="minuta_para_discussao" size="large" onAction="minuta_para_discussao" showLabel="false" supertip="Inserir marca de minuta para discussão"/>
+
+        </group>
+
       </tab>
+	  
 
       <tab id="facilidades" label="Facilidades" insertAfterMso="TabHome" keytip="F"> 
-        <group id="formatarCelulas" label="Papéis de Trabalho" autoScale="false" centerVertically="true">
-          
-          <button id="inserirLogotipo" label="Inserir Logotipo" size="large" image="logo" supertip="Clique para inserir o logotipo da empresa." keytip="1" onAction="inserir_logotipo" />
 
-          <separator id="sep_operacoes_00" />
-					
-					<button id="novo_wp" label="Papel de Trabalho Padrão" size="large" imageMso="HeaderFooterInsert" supertip="Clique para criar um novo papel de trabalho padrão." onAction="NovoPapelPadrao" />					
-					
-					<separator id="sep_operacoes_01" />
+		<group id="formatarCelulas" label="Papéis de Trabalho" autoScale="false" centerVertically="true">
 
-					<button id="preparar_documento" label="Preparar Documento" size="normal" imageMso="CreateReportBlankReport" supertip="Clique para realizar os ajustes iniciais no papel de trabalho." onAction="PrepararTrabalho" />
-					
-					<button id="inserir_titulos" label="Inserir Titulos" size="normal" imageMso="ControlTitle" supertip="Selecione um grupo de células e clique aqui para inserir um título padrão." onAction="inserir_titulos" />
-					
-					<button id="mesclara_justificar" label="Mesclar/Justificar" size="normal" imageMso="ReviewCompareTwoVersions" supertip="Selcione um grupo de células e clique aqui para mesclar e justificar os textos." onAction="QuadroDeTexto" />
+			<button id="inserirLogotipo" label="Inserir Logotipo" size="large" imageMso="DataSubmitToWebService" supertip="Clique para inserir o logotipo da empresa." keytip="1" onAction="inserir_logotipo_da_empresa" />
 
-					<separator id="sep_operacoes_02" />
+			<separator id="sep_operacoes_09" />
+			        
+            <splitButton id="papeis_de_trabalho" size="large">
 
-					<menu id="funcoes" label="Funções" size="normal" imageMso="QueryBuilder"  >
+				<button id="novo_wp" label="Papel de Trabalho Padrão" imageMso="HeaderFooterInsert" supertip="Clique para criar um novo papel de trabalho padrão." onAction="NovoPapelPadrao" />					
 
-						<menuSeparator id="sep_operacoes_03" title="Operações com Números"/>
+				<menu id="papeis_de_trabalho_01">
+
+				<button id="montar_folhas_de_ponto" label="Montar folhas de ponto padrão" imageMso="CancelDeclineTask" supertip="Montar folhas de ponto padrão" onAction="montar_folhas_de_ponto" />
+
+				<button id="montar_wps_contabeis" label="Montar papéis de trabalho contábeis" imageMso="CollateLandscapeSeparated" supertip="Montar papéis de trabalho contábeis automaticamente." onAction="montar_wps_contabeis" />
+
+				</menu>
+
+			</splitButton>
+
+			<separator id="sep_operacoes_00" />
+
+			<button id="preparar_documento" label="Preparar Documento" size="normal" imageMso="CreateReportBlankReport" supertip="Clique para realizar os ajustes iniciais no papel de trabalho." onAction="PrepararTrabalho" />
+
+			<button id="inserir_titulos" label="Inserir Titulos" size="normal" imageMso="ControlTitle" supertip="Selecione um grupo de células e clique aqui para inserir um título padrão." onAction="inserir_titulos" />
+
+			<button id="mesclara_justificar" label="Mesclar/Justificar" size="normal" imageMso="ReviewCompareTwoVersions" supertip="Selcione um grupo de células e clique aqui para mesclar e justificar os textos." onAction="QuadroDeTexto" />
+
+			<separator id="sep_operacoes_16" />
+
+			<splitButton id="formatacoes" size="large">
+
+				<button id="numeros_sem_virgulas" label="Formato Padrão de DFs" imageMso="AccountingFormat" supertip="Sem casas decimais, sem símbolos e com () pra negativos." onAction="formatarNumeros" />
+
+				<menu id="lista_formatacoes">
+
+				<button id="numeros_perc" label="Padrão em % Percentual" imageMso="AccountingFormat" supertip="Sem casas decimais, com símbolo de Percentual e com () pra negativos." onAction="formatarNumeros_perc" />
+
+				<button id="numero_reais" label="Padrão de DFs em R$" imageMso="AccountingFormat" supertip="Sem casas decimais, com símbolo de Real e com () pra negativos." onAction="formatarNumeros_real" />
+
+				<button id="numeros_dolar" label="Padrão de DFs em US$" imageMso="AccountingFormat" supertip="Sem casas decimais, com símbolo de Dólar e com () pra negativos." onAction="formatarNumeros_dolar" />
+
+				<button id="numeros_euro" label="Padrão de DFs em EURO" imageMso="AccountingFormat" supertip="Sem casas decimais, com símbolo de Euro e com () pra negativos." onAction="formatarNumeros_euro" />
+
+			</menu>
+
+			</splitButton>
+
+			
+			<splitButton id="tieins_inserir" size="large">
+
+				<button id="inserirtiein" label="Composição Numérica" imageMso="PivotTableLayoutGrandTotals" supertip="Inserir tie in" onAction="InserirTieIn" />
+
+				<menu id="lista_tieins">
+
+				<button id="inserirtiein_texto" label="Composição Apenas Texto" imageMso="PivotTableLayoutSubtotals" supertip="Inserir tie in" onAction="InserirTieIn_Texto" />
+
+				</menu>
+
+			</splitButton>
+
+		</group> 
+		
+
+		
+		<group id="funcoes_facilidades" label="Facilidades" autoScale="false" centerVertically="true">
+
+			<menu id="funcoes_001" label="Operações com números" size="large" imageMso="QueryBuilder"  >
+
+						<menuSeparator id="funcoes_001_a" title="Operações com Números"/>
 
 						<button id="divir_mil" label="Dividir números por mil" supertip="Divide uma ou mais células com números por mil." onAction="ExecutarNumeros_DivideMil" imageMso="DecimalsDecrease"/>
 
 						<button id="divir_cem" label="Dividir números por cem" supertip="Divide uma ou mais células com números por cem." onAction="ExecutarNumeros_DivideCem" imageMso="DecimalsDecrease"/>
 						
-						<menuSeparator id="sep_operacoes_04"/>
+						<menuSeparator id="funcoes_001_b"/>
 
 						<button id="remove_decimais" label="Remover casas decimais" supertip="Remove todas as casas decimais de uma ou mais células que contenham números." onAction="ExecutarNumeros_RemoveDecimais" imageMso="DecimalsDecrease"/>
 
 						<button id="arredondar_numero" label="Arredondar números" supertip="Arredonda uma ou mais células que contenham números para números inteiros." onAction="ExecutarNumeros_Arredondar" imageMso="DecimalsDecrease"/>						
 
-						<menuSeparator id="sep_operacoes_05"/>
+						<menuSeparator id="funcoes_001_c"/>
 
 						<button	id="inserir_aleatorios" label="Inserir Números Aleatórios" supertip="Inserir números aleatórios no intervalo selecionado." onAction="inserir_numeros_aleatorios" imageMso="BulletListDefault"/>						
 						
+			</menu>
+
+			<menu id="funcoes_002" label="Operações com Informações" size="large" imageMso="QueryBuilder"  >
+
 						<menuSeparator id="sep_operacoes_06" title="Operações com Informações"/>
 						
 						<button id="remover_imagens" label="Deletar todas as imagens da planilha" imageMso="ApplyImageBackgroundTile" supertip="Deletar todas as imagens da planilha de uma só vez, incluindo as que não estão visíveis." keytip="Y" onAction="excluir_todas_as_imagens"/>
 
-						<menuSeparator id="sep_operacoes_99"/>
+						<menuSeparator id="funcoes_002_a"/>
 						
 						<button	id="numeracao" label="Numerar/Filtrar" imageMso="SmartArtAddBullet" supertip="Informações o responsável pelo desenvolvimento do Facilitador de Auditoria." keytip="Y" onAction="InserirContagemFiltro"/>
 						
@@ -123,123 +193,175 @@
 						<button id="inverter_sinais" label="Inverter Sinais" supertip="Inverter o sinal dos números." onAction="Truque_inverter_sinal" imageMso="CalculateFull" />
 
 						<button id="pontos_p_virgula" label="Pontos por vírgula" supertip="Trocar pontos por vírgulas. De 1,000.00 para 8.000,00" onAction="Truque_trocar_ponto_virgula" imageMso="CommaStyle" />
+						
+						<menuSeparator id="funcoes_002_b"/>
 
-						<menuSeparator id="sep_operacoes_07" title="Operações com Textos"/>
+						<button	id="transpor_tabelas" label="Transpor tabelas" supertip="Apóis selecionar um intervalo, clique para transpor um intervalo." onAction="remover_todas_as_formatacoes" imageMso="DatasheetNewField" />	
+						
+						<menuSeparator id="funcoes_002_c"/>
 
-						<button		id="todas_maiusculas"
-									label="Todas Maiúsculas"
-									supertip="Colocar todas as células em maiúsculas"
-									onAction="caixaAlta"
-									imageMso="FormControlLabel"/>
+						<button	id="listar_feriados_do_ano" label="Listar feriados do ano" supertip="Obtém a lista de feriados do ano." onAction="listar_feriados_do_ano" imageMso="DailyView" />	
 
-						<button		id="todas_minusculas"
-									label="Todas Minúsculas"
-									supertip="Colocar todas as células em minúsculas."
-									onAction="caixaBaixa"
-									imageMso="FormControlLabel"/>	
+						<menuSeparator id="funcoes_002_d"/>
+
+			</menu>
+			<menu id="funcoes_003" label="Operações com Textos" size="large" imageMso="QueryBuilder"  >
+
+						<menuSeparator id="funcoes_003_a" title="Operações com Textos"/>
+
+						<button	id="todas_maiusculas" label="Todas Maiúsculas" supertip="Colocar todas as células em maiúsculas" onAction="caixaAlta" imageMso="FormControlLabel"/>
+
+						<button	id="todas_minusculas" label="Todas Minúsculas" supertip="Colocar todas as células em minúsculas." onAction="caixaBaixa" imageMso="FormControlLabel"/>	
 					
 						<button	id="pri_maiusculas" label="Primeiras maiúsculas" supertip="Colocar todas com as primeiras letras de cada palavra em maiúsculas." onAction="pri_maiuscula" imageMso="FormControlLabel"/>
+			
+			</menu>
+	
+			<menu id="funcoes_004" label="Operações de dados" size="large" imageMso="QueryBuilder"  >
 
-						<menuSeparator id="sep_operacoes_08" title="Testar Números de Documento"/>
+				<menuSeparator id="funcoes_004_a" title="Testar Números de Documento"/>
 
-						<button id="validar_cnpj" label="Validar lista de CNPJs" supertip="Verifica se uma lista de CNPJs é válida" onAction="VerificarCNPJemLista" imageMso="AppendOnly"/>
+				<button id="validar_cnpj" label="Validar lista de CNPJs" supertip="Verifica se uma lista de CNPJs é válida" onAction="VerificarCNPJemLista" imageMso="AppendOnly"/>
 
-						<button id="validar_cpf" label="Validar lista de CPFs" supertip="Verifica se uma lista de CPFs é válida" onAction="VerificarCPFemLista" imageMso="AppendOnly"/>
+				<button id="validar_cpf" label="Validar lista de CPFs" supertip="Verifica se uma lista de CPFs é válida" onAction="VerificarCPFemLista" imageMso="AppendOnly"/>
 
-					</menu>
+				<button id="calculo_automatico_de_preco" label="Criar Planilha de Preços" supertip="Cria uma planilha de cálculo automático de preço de venda de produtos." onAction="calculo_automatico_de_preco" imageMso="ChartTypeLineInsertGallery"/>
 
-					<!-- GRUPO DE FUNÇÕES ESPECIAIS -->
-					<menu id="arquivos" label="Arquivos" size="normal" imageMso="QueryBuilder"  >
+				<menuSeparator id="funcoes_004_b" title="Validações"/>
+
+				<button id="criar_vencimentos_sequenciais" label="Vencimentos sequenciais" supertip="Cria uma lista de vencimentos sequenciais, sempre no mesmo dia de cada mês." onAction="criar_vencimentos_sequenciais" imageMso="CalendarToolSelectDate"/>
+				
+				<menuSeparator id="funcoes_004_c" title="Conteúdos do arquivo"/>
+
+				<button id="listar_objetos_da_planilha" label="Listar objetos da planilha" supertip="Listar objetos da planilha (links, tabelas, imagens, etc.)." onAction="criar_vencimentos_sequenciais" imageMso="CalendarToolSelectDate"/>
+				
+				<button id="remover_todos_os_vinculos_da_planilha" label="Remover todos os vínculos da planilha ativa" supertip="Remove todos os vínculos da planilha ativa." onAction="remover_todos_os_vinculos_da_planilha" imageMso="BuildHyperlink"/>
+				
+				<menuSeparator id="funcoes_004_d" title="Recursos especiais"/>
+
+				<button id="leitura_de_range_de_dados" label="Fazer leitura (text-to-speech) de um range de celulas" supertip="Usa text-to-speech do Office para fazer a leitura do conteúdo de um range de celulas." onAction="leitura_de_range_de_dados" imageMso="AudioInsert"/>
+				
+				<menuSeparator id="funcoes_004_e" title="Importação de dados"/>
+
+				<button id="importar_conteudo_de_arquivos_de_texto" label="Importar arquivos de texto (mantendo o conteúdo original)" supertip="Importar arquivos de texto (mantendo o conteúdo original)." onAction="importar_conteudo_de_arquivos_de_texto" imageMso="AlignJustifyMenu"/>
+			
+
+				<button id="importar_lista_de_emails_do_outlook" label="Listar informações dos e-mails do Outlook" supertip="Listar informações dos e-mails do Outlook." onAction="importar_lista_de_emails_do_outlook" imageMso="ArrangeBySubject"/>
+
+			</menu>
+			
+			
+			<menu id="funcoes_005" label="Operações com Arquivos" size="large" imageMso="QueryBuilder"  >
 						
-						<menuSeparator id="sep_operacoes_09" title="Estrutura de Diretórios"/>
+				<menuSeparator id="funcoes_005_a" title="Estrutura de Diretórios"/>
 
-						<button	id="criar_estrutura" label="Criar Diretório de Projeto" supertip="Cria uma estrutura padrão de diretório de projeto no endereço especificado." onAction="criar_diretorio_padrao" imageMso="BibliographyGallery"/>
+				<button	id="criar_estrutura" label="Criar Diretório de Projeto" supertip="Cria uma estrutura padrão de diretório de projeto no endereço especificado." onAction="criar_diretorio_padrao" imageMso="BibliographyGallery"/>
 
-						<button id="acessar_estrutura_padrao" label="Abrir Diretório Padrão para Customização" supertip="Abre o diretório padrão para customização." onAction="abrir_diretorio_padrao" imageMso="BibliographyGallery"/>
+				<button id="acessar_estrutura_padrao" label="Abrir Diretório Padrão para Customização" supertip="Abre o diretório padrão para customização." onAction="abrir_diretorio_padrao" imageMso="BibliographyGallery"/>
 
-						<menuSeparator id="sep_operacoes_10" title="Operações com Arquivos"/>
+				<menuSeparator id="funcoes_005_b" title="Operações com Arquivos"/>
 
-						<button id="listar_diretorio" label="Listar arquivos de um diretório específico" supertip="Listar os nomes dos arquivos contidos em diretório específico." onAction="listar_diretorio" imageMso="ExportSavedExports"/>
+				<button id="listar_diretorio" label="Listar arquivos de um diretório específico" supertip="Listar os nomes dos arquivos contidos em diretório específico." onAction="listar_diretorio" imageMso="ExportSavedExports"/>
 
-						<button id="listar_diretorio_linkados" label="Listar arquivos de um diretório com links" supertip="Listar os nomes dos arquivos contidos em diretório específico e insere links." onAction="listar_diretorio_linkados" imageMso="AccessRelinkLists"/>
-					
-						<menuSeparator id="sep_operacoes_12" />
-						
-						<button	id="compilar_arquivos" label="Compilar planilhas de vários arquivos" supertip="Consolida todas as planilhas dos arquivos abertos em um novo arquivo." onAction="compilar_arquivos" imageMso="DatabaseRelationships" />
+				<button id="listar_diretorio_linkados" label="Listar arquivos de um diretório com links" supertip="Listar os nomes dos arquivos contidos em diretório específico e insere links." onAction="listar_diretorio_linkados" imageMso="AccessRelinkLists"/>
 
-					</menu>
+				<button id="fazer_backup_do_arquivo_atual" label="Fazer cópia/backup do arquivo atual" supertip="Faça uma cópia/backup do arquivo atual no mesmo diretório." onAction="fazer_backup_do_arquivo_atual" imageMso="CalendarToolExportAllAppointments"/>
 
-					<menu id="planilhas" label="Planilhas" size="normal" imageMso="QueryBuilder">
+				<menuSeparator id="funcoes_005_c" />
 
-						<menuSeparator id="sep_operacoes_13" title="Operações com Planilhas"/>
+				<button	id="compilar_arquivos" label="Compilar planilhas de vários arquivos" supertip="Consolida todas as planilhas dos arquivos abertos em um novo arquivo." onAction="compilar_arquivos" imageMso="DatabaseRelationships" />
+				
+				<button	id="separar_planilhas_em_arquivos_diferentes" label="Separar planilhas em arquivos diferentes" supertip="Separa cada uma das planilhas do arquivo atual em arquivos diferentes." onAction="separar_planilhas_em_arquivos_diferentes" imageMso="DatabaseRelationships" />
 
-						<button id="listar_planilhas" label="Listar planilhas ativas" supertip="Lista o nome de todas as planilhas ativas deste arquivo." onAction="listar_planilhas" imageMso="FileSaveAsExcelXlsx"/>
-						
-						<button id="compilar_planilhas" label="Compilar planilhas ativas deste arquivo" supertip="Empilha todos os registros das planilhas abertas em uma única planilha." onAction="compilar_planilhas" 									imageMso="ConvertTableToText" />
-						
-						<menuSeparator id="sep_operacoes_14" />
+			</menu>
+			
 
-						<button id="esconder_planilha" label="Esconder planilha via código" supertip="Esconde a planilha atual. Ela não será excluída e não ficará oculta." onAction="ocultar_planilha" imageMso="SheetProtect"/>
+			
+			<menu id="funcoes_006" label="Operações com Planilhas" size="large" imageMso="QueryBuilder">
 
-						<button id="reexibir_planilhas_escondidas" label="Reexibir planilhas ocultas via código" supertip="Reexibir colunas ocultas via código." onAction="reexibir_planilhas_ocultas" imageMso="SheetProtect"/>
-						
-						<menuSeparator id="sep_operacoes_15" />
+				<menuSeparator id="funcoes_006_a" title="Operaçeõs com Planilhas"/>
 
-						<button	id="ocultar_todas_planilhas" label="Ocultar todas as planilhas" supertip="Oculta todas as planilhas exceto a ativa" onAction="ocultar_planilhas" imageMso="ReviewShowOrHideMarkup" />
+				<button id="criar_dicionario_de_colunas" label="Criar dicionário de colunas de planilha" supertip="Criar dicionário de colunas de planilha." onAction="criar_dicionario_de_colunas" imageMso="BusinessFromWizard"/>
 
-						<button	id="reexibir_todas_planilhas" label="Reexibir todas as planilhas ocultas" supertip="Reexibir todas as planilhas ocultas" onAction="reexibir_planilhas" imageMso="ReviewShowOrHideMarkup" />	
+				<button id="listar_planilhas" label="Listar planilhas ativas" supertip="Lista o nome de todas as planilhas ativas deste arquivo." onAction="listar_planilhas" imageMso="FileSaveAsExcelXlsx"/>
 
-						<menuSeparator id="sep_operacoes_98" />
+				<button id="compilar_planilhas" label="Compilar planilhas ativas deste arquivo" supertip="Empilha todos os registros das planilhas abertas em uma única planilha." onAction="compilar_planilhas" imageMso="AddNewColumnMenu" />
+				
+				<button id="comparar_cabecalhos_de_planilhas" label="Comparar cabecalhos de planilhas" supertip="Comparar cabecalhos de várias planilhas." onAction="comparar_cabecalhos_de_planilhas" imageMso="ConvertTableToText" />
 
-						<button	id="remover_todas_as_formatacoes" label="Remover toda a formatação da planilha" supertip="Mantendo o conteúdo, remove todas as formatações da planilha atual." onAction="remover_todas_as_formatacoes" imageMso="CurrentEraser" />	
+				<menuSeparator id="funcoes_006_b" />
 
-					</menu>
+				<button id="esconder_planilha" label="Esconder planilha via código" supertip="Esconde a planilha atual de forma a não ser possível ao usuário encontrá-la pelos caminhos normais do Excel. Ela não será excluída, apenas ficará oculta." onAction="ocultar_planilha" imageMso="SheetProtect"/>
 
-					<separator id="sep_operacoes_16" />
+				<button id="reexibir_planilhas_escondidas" label="Reexibir planilhas ocultas via código" supertip="Reexibir colunas escondidas via código." onAction="reexibir_planilhas_ocultas" imageMso="SheetProtect"/>
 
-					<!-- DEFINIÇOES PARA FORMATAÇÃO DOS NÚMEROS E SALDOS-->
-					<splitButton id="formatacoes" size="large">
+				<menuSeparator id="funcoes_006_c" />
 
-						<button id="numeros_sem_virgulas" label="Formato Padrão de DFs" imageMso="AccountingFormat" supertip="Sem casas decimais, sem símbolos e com () pra negativos." onAction="formatarNumeros" />
-						
-						<menu id="lista_formatacoes">
-							
-							<button id="numeros_perc" label="Padrão em % Percentual" imageMso="AccountingFormat" supertip="Sem casas decimais, com símbolo de Percentual e com () pra negativos." onAction="formatarNumeros_perc" />
+				<button	id="proteger_desproteger_planilha" label="Proteger/desproteger todas as planilhas com a mesma senha" supertip="Protege ou desproteger todas as planilhas com a mesma senha." onAction="proteger_desproteger_planilha" imageMso="AdpDiagramKeys" />	
 
-							<button id="numero_reais" label="Padrão de DFs em R$" imageMso="AccountingFormat" supertip="Sem casas decimais, com símbolo de Real e com () pra negativos." onAction="formatarNumeros_real" />
+				<menuSeparator id="funcoes_006_d" />
 
-							<button id="numeros_dolar" label="Padrão de DFs em US$" imageMso="AccountingFormat" supertip="Sem casas decimais, com símbolo de Dólar e com () pra negativos." onAction="formatarNumeros_dolar" />
+				<button	id="remover_todas_as_formatacoes" label="Remover toda a formatação da planilha" supertip="Mantendo o conteúdo, remove todas as formatações da planilha atual." onAction="remover_todas_as_formatacoes" imageMso="CurrentEraser" />	
+				
+				<button	id="ajustar_todas_as_colunas_automaticamente" label="Ajustar todas as colunas automaticamente" supertip="Ajusta todas as colunas automaticamente." onAction="ajustar_todas_as_colunas_automaticamente" imageMso="AccessListCustom" />	
+				
+				<menuSeparator id="funcoes_006_e" />
 
-							<button id="numeros_euro" label="Padrão de DFs em EURO" imageMso="AccountingFormat" supertip="Sem casas decimais, com símbolo de Euro e com () pra negativos." onAction="formatarNumeros_euro" />
+				<button	id="gerar_pdf_da_planilha" label="Gerar PDF desta planilha" supertip="Gera o PDF da planilha ativa." onAction="gerar_pdf_da_planilha" imageMso="AutoFillMode" />	
 
-						</menu>
+				<menuSeparator id="funcoes_006_f" />
+				
+				<button	id="ocultar_todas_planilhas" label="Ocultar todas as planilhas (exceto a atual)" supertip="Oculta todas as planilhas exceto a ativa" onAction="ocultar_planilhas" imageMso="ReviewShowOrHideMarkup" />
 
-					</splitButton>
+				<button	id="reexibir_todas_planilhas" label="Reexibir todas as planilhas ocultas" supertip="Reexibir todas as planilhas ocultas" onAction="reexibir_planilhas" imageMso="ReviewShowOrHideMarkup" />	
+				
+				<menuSeparator id="funcoes_006_g" />
 
-				<!-- DEFINIÇOES PARA TIE IN -->
-					<splitButton id="tieins_inserir" size="large">
+				<button	id="criar_processo_de_navegacao" label="Criar barra de navegação entre arquivos" supertip="Criar uma linha na parte superior com botões de navegação. É importante que os dados estejam em ordem." onAction="criar_processo_de_navegacao" imageMso="AlignJustifyThai" />	
 
-						<button id="inserirtiein" label="Composição Numérica" imageMso="PivotTableLayoutGrandTotals" supertip="Inserir tie in" onAction="InserirTieIn" />
+			</menu>
+		
+		</group>
+			
 
-						<menu id="lista_tieins">
-							
-						<button id="inserirtiein_texto" label="Composição Apenas Texto" imageMso="PivotTableLayoutSubtotals" supertip="Inserir tie in" onAction="InserirTieIn_Texto" />
+		
+		<group id="configuracoes" label="Configurações" autoScale="true" centerVertically="true"> 
 
-						</menu>
+			<menu id="config_001" label="Configurações" size="large" imageMso="AnimationCustomAddActionVerbDialog"  >
 
-					</splitButton>
+				<menuSeparator id="config_001_A" title="Configurações de Conteúdos"/>
 
-        </group> 
+				<button	id="replace_logo" label="Substituir logotipo padrão" supertip="Substitui o logotipo padrão das operações da empresa." onAction="substituir_logotipo" imageMso="AnimationCustomAddActionVerbDialog"/>
 
-        <group id="Copyright" label="Autoria" autoScale="true" centerVertically="true">
+				<menuSeparator id="config_001_B" title="Configurações de Tickmarks"/>
 
-					<button id="autoria" label="Direitos Autorais" size="large" imageMso="HappyFace" supertip="Informações o responsável pelo desenvolvimento do Facilitador de Auditoria." onAction="mostrar_autoria"/>
+				<button	id="replace_modelo_tick" label="Alterar modelo de Tickmarks padrão" supertip="Alterar modelo de Tickmarks padrão." onAction="trocar_modelo_de_tickmarks" imageMso="AnimationCustomAddActionVerbDialog"/>	
+				
+				<menuSeparator id="config_001_C" title="Configurações de Funcionamento"/>
 
-					<button id="ajuda" label="Acessar Suporte" size="large" imageMso="ARMPreviewButton" supertip="Acessa a página com informações sobre a barra de ferramentas." onAction="mostrar_ajuda"/>
+				<button	id="ligar_desligar_processos_para_agilizar" label="Ligar/desligar processos para agilizar processamento" supertip="Liga/desliga processos para agilizar processamento." onAction="ligar_desligar_processos_para_agilizar" imageMso="AnimationTriggerAddMenu"/>	
+				
+				<menuSeparator id="config_001_D" title="Instalação da ferramenta"/>
 
-				</group>
-     
+				<button	id="instalar_barra_de_ferramenta" label="Instalar barra de ferramentas" supertip="Instalar barra de ferramentas." onAction="instalar_barra_de_ferramenta" imageMso="AnimationTriggerAddMenu"/>	
+
+			</menu>
+		
+		</group>
+		
+		<group id="Copyright" label="Autoria" autoScale="true" centerVertically="true">
+
+			<button id="autoria" label="Direitos Autorais" size="large" imageMso="HappyFace" supertip="Informações o responsável pelo desenvolvimento do Facilitador de Auditoria." onAction="mostrar_autoria"/>
+
+			<button id="ajuda" label="Acessar Suporte" size="large" imageMso="ARMPreviewButton" supertip="Acessa a página com informações sobre a barra de ferramentas." onAction="mostrar_ajuda"/>
+
+			<button id="listar_videos_do_excel" label="Exibir vídeos do Excel" size="large" imageMso="AutoLinkingStart" supertip="Acessa página com ajudas para o Excel." onAction="listar_videos_do_excel"/>
+
+		</group>
+		
+
       </tab>
+	
 
     </tabs>
   </ribbon>
