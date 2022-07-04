@@ -40,9 +40,9 @@
         </group>
         <group id="letras" label="Letras explicativas" autoScale="false" centerVertically="true">
           <button id="letras_a" label="Letra A" image="tickmark_a" size="normal" onAction="inserir_letra_a" showLabel="false" supertip="Inserir Letra Explicativa A"/>
-          <button id="letras_b" label="Letra B" image="tickmark_b" size="normal" onAction="inserir_letra_b" showLabel="false" supertip="Inserir Letra Explicativa B"/>
           <button id="letras_c" label="Letra C" image="tickmark_c" size="normal" onAction="inserir_letra_c" showLabel="false" supertip="Inserir Letra Explicativa C"/>
           <button id="letras_d" label="Letra D" image="tickmark_d" size="normal" onAction="inserir_letra_d" showLabel="false" supertip="Inserir Letra Explicativa D"/>
+          <button id="letras_b" label="Letra B" image="tickmark_b" size="normal" onAction="inserir_letra_b" showLabel="false" supertip="Inserir Letra Explicativa B"/>
           <button id="letras_e" label="Letra E" image="tickmark_e" size="normal" onAction="inserir_letra_e" showLabel="false" supertip="Inserir Letra Explicativa E"/>
           <button id="letras_f" label="Letra F" image="tickmark_f" size="normal" onAction="inserir_letra_f" showLabel="false" supertip="Inserir Letra Explicativa F"/>
           <button id="letras_g" label="Letra G" image="tickmark_g" size="normal" onAction="inserir_letra_g" showLabel="false" supertip="Inserir Letra Explicativa G"/>
@@ -53,6 +53,7 @@
           <button id="letras_l" label="Letra L" image="tickmark_l" size="normal" onAction="inserir_letra_l" showLabel="false" supertip="Inserir Letra Explicativa L"/>
           <button id="letras_m" label="Letra M" image="tickmark_m" size="normal" onAction="inserir_letra_m" showLabel="false" supertip="Inserir Letra Explicativa M"/>
           <button id="letras_n" label="Letra N" image="tickmark_n" size="normal" onAction="inserir_letra_n" showLabel="false" supertip="Inserir Letra Explicativa N"/>
+          <button id="letras_o" label="Letra O" image="tickmark_o" size="normal" onAction="inserir_letra_o" showLabel="false" supertip="Inserir Letra Explicativa O"/>
         </group>
         <group id="numeros" label="Referências Numéricas" autoScale="false" centerVertically="true">
           <button id="numero_1" label="Numero 1" image="tickmark_1" size="normal" onAction="numero_1" showLabel="false" supertip="Inserir Referência Numérica 1"/>
@@ -65,10 +66,12 @@
           <button id="numero_8" label="Numero 8" image="tickmark_8" size="normal" onAction="numero_8" showLabel="false" supertip="Inserir Referência Numérica 8"/>
           <button id="numero_9" label="Numero 9" image="tickmark_9" size="normal" onAction="numero_9" showLabel="false" supertip="Inserir Referência Numérica 9"/>
           <button id="numero_10" label="Numero 10" image="tickmark_10" size="normal" onAction="numero_10" showLabel="false" supertip="Inserir Referência Numérica 10"/>
+          <button id="numero_11" label="Numero 11" image="tickmark_11" size="normal" onAction="numero_11" showLabel="false" supertip="Inserir Referência Numérica 11"/>
+          <button id="numero_12" label="Numero 12" image="tickmark_12" size="normal" onAction="numero_12" showLabel="false" supertip="Inserir Referência Numérica 12"/>
         </group>
       </tab>
 
-      <tab id="facilidades" label="Facilidades" insertAfterMso="tickmarks" keytip="F"> 
+      <tab id="facilidades" label="Facilidades" insertAfterMso="TabHome" keytip="F"> 
         <group id="formatarCelulas" label="Papéis de Trabalho" autoScale="false" centerVertically="true">
           
           <button id="inserirLogotipo" label="Inserir Logotipo" size="large" image="logo" supertip="Clique para inserir o logotipo da empresa." keytip="1" onAction="inserir_logotipo" />
